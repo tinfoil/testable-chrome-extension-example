@@ -1,0 +1,17 @@
+{
+  "name": "A Simple Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A simple modularized extension with specs.",
+  "browser_action": {
+    "default_icon": "frontend/images/icon.png",
+    "default_popup": "frontend/popup.html"
+  },
+  "background": {
+   "scripts": ["scripts/background/background.js"],
+   "persistent": false
+  },
+  "content_scripts": [],
+  "permissions": [],
+  "key": "b3BlbnNzbCByc2EgLWluIGtle520KWxxaq01Ym91dCAtb3V0Zm9ybSBERVIK"
+}
