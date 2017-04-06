@@ -1,0 +1,10 @@
+dependencies:
+  pre:
+    - npm config set -g production false
+    - npm install --global gulp-cli
+    - bundle install
+test:
+  override:
+    - export DISPLAY=:104.0
+    - /usr/bin/Xvfb :104.0 2>/dev/null &
+    - gulp
