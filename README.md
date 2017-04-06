@@ -13,3 +13,5 @@ If you haven't already, be sure to read our blog post on how to design a testabl
 This extension is built using Gulp. Because of this, we can split our extension into multiple modules, then concatenate them at build time. 
 
 Unit tests are run by concatenating the background script and the Jasmine spec files, then running them with Karma. Integration tests are run by installing the extension on a Watir browser, then running Rspec tests on the browser.
+
+[![CircleCI](https://circleci.com/gh/tinfoil/testable-chrome-extension-example/tree/master.svg?style=svg)](https://circleci.com/gh/tinfoil/testable-chrome-extension-example/tree/master)
