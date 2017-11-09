@@ -8,7 +8,7 @@ To set up the build environment, run `npm install`, then `bundle install`.
 Run `gulp` to build the extension, then run unit and integration tests.
 
 ## How it works
-If you haven't already, be sure to read our blog post on how to design a testable Chrome Extension.
+If you haven't already, be sure to read [our blog post](https://www.tinfoilsecurity.com/blog/how-to-create-testable-modularized-chrome-browser-extensions) on how to design a testable Chrome Extension.
 
 This extension is built using Gulp. Because of this, we can split our extension into multiple modules, then concatenate them at build time. 
 
